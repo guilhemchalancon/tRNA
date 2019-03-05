@@ -8,4 +8,8 @@ Description: Torrent, M., Chalancon, G., De Groot, N. S., Wuster, A., & Madan Ba
 https://doi.org/10.1126/scisignal.aat6409
 License: What license is it under?
 Encoding: UTF-8
-LazyData: true  
+LazyData: true
+biocViews: seqinr, Biostrings
+Imports:
+    data.table
+    
