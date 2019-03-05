@@ -1,0 +1,13 @@
+# to do
+
+- build low level function to read fasta files and output as Biostrings::XStringSet (RNA or DNA)
+- build low level function splitting RNAStringSet or DNAStringSet to codons
+- build wrapper running the seq-> codons and codon-> codon frequency to output codon frequency matrix
+- add example FASTA sequences to data/
+- dig up tRNA weights file and add to data/
+- implement get_tAI function
+- add controls/checks (file existence, expected format etc.)
+- ensure automated import of dependencies upon package installation
+- add roxygen flags in headers to automate function documentation in .Rd files
+- write README
+- handle any unforeseen issues (e.g. codon freq and weight scores must map properly, etc.)
